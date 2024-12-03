@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for C:\laragon\www\new_setup\app</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="_css/bootstrap.min.css?v=9.2.26" rel="stylesheet" type="text/css">
+  <link href="_css/nv.d3.min.css?v=9.2.26" rel="stylesheet" type="text/css">
+  <link href="_css/style.css?v=9.2.26" rel="stylesheet" type="text/css">
+  <link href="_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">C:\laragon\www\new_setup\app</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Controllers/Api/user/authentication/LoginController.php.html#14">App\Http\Controllers\Api\user\authentication\LoginController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/user/authentication/profileController.php.html#17">App\Http\Controllers\Api\user\authentication\profileController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/user/authentication/registrationController.php.html#13">App\Http\Controllers\Api\user\authentication\registrationController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Controller.php.html#15">App\Http\Controllers\Controller</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/AuthenticationController.php.html#10">App\Http\Controllers\Dashboard\AuthenticationController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/CategoryController.php.html#11">App\Http\Controllers\Dashboard\CategoryController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/HomeController.php.html#12">App\Http\Controllers\Dashboard\HomeController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/ProfileController.php.html#12">App\Http\Controllers\Dashboard\ProfileController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/RoleController.php.html#12">App\Http\Controllers\Dashboard\RoleController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/SettingController.php.html#9">App\Http\Controllers\Dashboard\SettingController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/UserController.php.html#18">App\Http\Controllers\Dashboard\UserController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#8">App\Http\Middleware\Authenticate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#10">App\Http\Middleware\RedirectIfAuthenticated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/TrustHosts.php.html#7">App\Http\Middleware\TrustHosts</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/api/changeLangMiddleware.php.html#9">App\Http\Middleware\api\changeLangMiddleware</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/checkJWTTokenMiddelware.php.html#15">App\Http\Middleware\checkJWTTokenMiddelware</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/dashboard/permissionMiddleware.php.html#8">App\Http\Middleware\dashboard\permissionMiddleware</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Api/user/changeImageRequest.php.html#11">App\Http\Requests\Api\user\changeImageRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Api/user/changePasswordRequest.php.html#11">App\Http\Requests\Api\user\changePasswordRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Api/user/createRequest.php.html#11">App\Http\Requests\Api\user\createRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Api/user/loginRequest.php.html#11">App\Http\Requests\Api\user\loginRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Api/user/updateRequest.php.html#11">App\Http\Requests\Api\user\updateRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/profile/edit.php.html#7">App\Http\Requests\profile\edit</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/roles/createRequest.php.html#7">App\Http\Requests\roles\createRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/roles/editRequest.php.html#7">App\Http\Requests\roles\editRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/users/createRequest.php.html#7">App\Http\Requests\users\createRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/users/editRequest.php.html#7">App\Http\Requests\users\editRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/users/login.php.html#7">App\Http\Requests\users\login</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Resources/userResource.php.html#7">App\Http\Resources\userResource</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Activity_log.php.html#9">App\Models\Activity_log</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Category.php.html#12">App\Models\Category</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Image.php.html#8">App\Models\Image</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Role.php.html#9">App\Models\Role</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#16">App\Models\User</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notifications/testNotification.php.html#10">App\Notifications\testNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BroadcastServiceProvider.php.html#8">App\Providers\BroadcastServiceProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/ActivityLogsService.php.html#8">App\Services\ActivityLogsService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/FirebaseNotificationSerice.php.html#7">App\Services\FirebaseNotificationSerice</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/RolesService.php.html#8">App\Services\RolesService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/UsersService.php.html#10">App\Services\UsersService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/checkbox.php.html#7">App\View\Components\form\checkbox</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/file.php.html#7">App\View\Components\form\file</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/input.php.html#7">App\View\Components\form\input</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/map.php.html#7">App\View\Components\form\map</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/multipleSelect.php.html#7">App\View\Components\form\multipleSelect</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/select.php.html#7">App\View\Components\form\select</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/textarea.php.html#7">App\View\Components\form\textarea</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Traits/Upload.php.html#9">App\Traits\Upload</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Traits/helper.php.html#9">App\Traits\helper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Traits/requestApiTrait.php.html#11">App\Traits\requestApiTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Traits/response.php.html#5">App\Traits\response</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/Kernel.php.html#8">App\Console\Kernel</a></td><td class="text-right">66%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Controllers/Dashboard/UserController.php.html#18">App\Http\Controllers\Dashboard\UserController</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Models/User.php.html#16">App\Models\User</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Traits/response.php.html#5">App\Traits\response</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/CategoryController.php.html#11">App\Http\Controllers\Dashboard\CategoryController</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Http/Controllers/Api/user/authentication/profileController.php.html#17">App\Http\Controllers\Api\user\authentication\profileController</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Services/UsersService.php.html#10">App\Services\UsersService</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Traits/Upload.php.html#9">App\Traits\Upload</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/ProfileController.php.html#12">App\Http\Controllers\Dashboard\ProfileController</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Middleware/checkJWTTokenMiddelware.php.html#15">App\Http\Middleware\checkJWTTokenMiddelware</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/AuthenticationController.php.html#10">App\Http\Controllers\Dashboard\AuthenticationController</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#8">App\Http\Middleware\Authenticate</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#10">App\Http\Middleware\RedirectIfAuthenticated</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Models/Category.php.html#12">App\Models\Category</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Controllers/Api/user/authentication/LoginController.php.html#14">App\Http\Controllers\Api\user\authentication\LoginController</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/Controller.php.html#15">App\Http\Controllers\Controller</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Middleware/api/changeLangMiddleware.php.html#9">App\Http\Middleware\api\changeLangMiddleware</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Middleware/dashboard/permissionMiddleware.php.html#8">App\Http\Middleware\dashboard\permissionMiddleware</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Console/Kernel.php.html#16"><abbr title="App\Console\Kernel::schedule">schedule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/user/authentication/LoginController.php.html#16"><abbr title="App\Http\Controllers\Api\user\authentication\LoginController::login">login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/user/authentication/LoginController.php.html#34"><abbr title="App\Http\Controllers\Api\user\authentication\LoginController::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/user/authentication/profileController.php.html#20"><abbr title="App\Http\Controllers\Api\user\authentication\profileController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/user/authentication/profileController.php.html#31"><abbr title="App\Http\Controllers\Api\user\authentication\profileController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/user/authentication/profileController.php.html#47"><abbr title="App\Http\Controllers\Api\user\authentication\profileController::changePassword">changePassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/user/authentication/profileController.php.html#61"><abbr title="App\Http\Controllers\Api\user\authentication\profileController::changeImage">changeImage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/user/authentication/registrationController.php.html#15"><abbr title="App\Http\Controllers\Api\user\authentication\registrationController::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Controller.php.html#21"><abbr title="App\Http\Controllers\Controller::summernote_upload_image">summernote_upload_image</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Controller.php.html#30"><abbr title="App\Http\Controllers\Controller::testPopUp">testPopUp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/AuthenticationController.php.html#12"><abbr title="App\Http\Controllers\Dashboard\AuthenticationController::loginView">loginView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/AuthenticationController.php.html#16"><abbr title="App\Http\Controllers\Dashboard\AuthenticationController::login">login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/AuthenticationController.php.html#25"><abbr title="App\Http\Controllers\Dashboard\AuthenticationController::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/CategoryController.php.html#13"><abbr title="App\Http\Controllers\Dashboard\CategoryController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/CategoryController.php.html#20"><abbr title="App\Http\Controllers\Dashboard\CategoryController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/CategoryController.php.html#28"><abbr title="App\Http\Controllers\Dashboard\CategoryController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/CategoryController.php.html#42"><abbr title="App\Http\Controllers\Dashboard\CategoryController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/CategoryController.php.html#52"><abbr title="App\Http\Controllers\Dashboard\CategoryController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/CategoryController.php.html#66"><abbr title="App\Http\Controllers\Dashboard\CategoryController::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/HomeController.php.html#14"><abbr title="App\Http\Controllers\Dashboard\HomeController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/ProfileController.php.html#17"><abbr title="App\Http\Controllers\Dashboard\ProfileController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/ProfileController.php.html#24"><abbr title="App\Http\Controllers\Dashboard\ProfileController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/ProfileController.php.html#30"><abbr title="App\Http\Controllers\Dashboard\ProfileController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/ProfileController.php.html#47"><abbr title="App\Http\Controllers\Dashboard\ProfileController::update_image">update_image</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/RoleController.php.html#17"><abbr title="App\Http\Controllers\Dashboard\RoleController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/RoleController.php.html#30"><abbr title="App\Http\Controllers\Dashboard\RoleController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/RoleController.php.html#35"><abbr title="App\Http\Controllers\Dashboard\RoleController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/RoleController.php.html#39"><abbr title="App\Http\Controllers\Dashboard\RoleController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/RoleController.php.html#54"><abbr title="App\Http\Controllers\Dashboard\RoleController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/RoleController.php.html#60"><abbr title="App\Http\Controllers\Dashboard\RoleController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/RoleController.php.html#77"><abbr title="App\Http\Controllers\Dashboard\RoleController::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/SettingController.php.html#11"><abbr title="App\Http\Controllers\Dashboard\SettingController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/SettingController.php.html#17"><abbr title="App\Http\Controllers\Dashboard\SettingController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/UserController.php.html#23"><abbr title="App\Http\Controllers\Dashboard\UserController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/UserController.php.html#33"><abbr title="App\Http\Controllers\Dashboard\UserController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/UserController.php.html#83"><abbr title="App\Http\Controllers\Dashboard\UserController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/UserController.php.html#88"><abbr title="App\Http\Controllers\Dashboard\UserController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/UserController.php.html#103"><abbr title="App\Http\Controllers\Dashboard\UserController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/UserController.php.html#116"><abbr title="App\Http\Controllers\Dashboard\UserController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/UserController.php.html#133"><abbr title="App\Http\Controllers\Dashboard\UserController::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/UserController.php.html#153"><abbr title="App\Http\Controllers\Dashboard\UserController::activity_logs">activity_logs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#16"><abbr title="App\Http\Middleware\Authenticate::redirectTo">redirectTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#20"><abbr title="App\Http\Middleware\RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/TrustHosts.php.html#14"><abbr title="App\Http\Middleware\TrustHosts::hosts">hosts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/api/changeLangMiddleware.php.html#18"><abbr title="App\Http\Middleware\api\changeLangMiddleware::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/checkJWTTokenMiddelware.php.html#25"><abbr title="App\Http\Middleware\checkJWTTokenMiddelware::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/dashboard/permissionMiddleware.php.html#17"><abbr title="App\Http\Middleware\dashboard\permissionMiddleware::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Api/user/changeImageRequest.php.html#19"><abbr title="App\Http\Requests\Api\user\changeImageRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Api/user/changeImageRequest.php.html#29"><abbr title="App\Http\Requests\Api\user\changeImageRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Api/user/changePasswordRequest.php.html#20"><abbr title="App\Http\Requests\Api\user\changePasswordRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Api/user/changePasswordRequest.php.html#30"><abbr title="App\Http\Requests\Api\user\changePasswordRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Api/user/createRequest.php.html#19"><abbr title="App\Http\Requests\Api\user\createRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Api/user/createRequest.php.html#29"><abbr title="App\Http\Requests\Api\user\createRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Api/user/loginRequest.php.html#19"><abbr title="App\Http\Requests\Api\user\loginRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Api/user/loginRequest.php.html#29"><abbr title="App\Http\Requests\Api\user\loginRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Api/user/updateRequest.php.html#19"><abbr title="App\Http\Requests\Api\user\updateRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Api/user/updateRequest.php.html#29"><abbr title="App\Http\Requests\Api\user\updateRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/profile/edit.php.html#14"><abbr title="App\Http\Requests\profile\edit::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/profile/edit.php.html#24"><abbr title="App\Http\Requests\profile\edit::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/roles/createRequest.php.html#14"><abbr title="App\Http\Requests\roles\createRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/roles/createRequest.php.html#24"><abbr title="App\Http\Requests\roles\createRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/roles/editRequest.php.html#14"><abbr title="App\Http\Requests\roles\editRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/roles/editRequest.php.html#24"><abbr title="App\Http\Requests\roles\editRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/users/createRequest.php.html#14"><abbr title="App\Http\Requests\users\createRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/users/createRequest.php.html#24"><abbr title="App\Http\Requests\users\createRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/users/editRequest.php.html#14"><abbr title="App\Http\Requests\users\editRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/users/editRequest.php.html#24"><abbr title="App\Http\Requests\users\editRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/users/login.php.html#14"><abbr title="App\Http\Requests\users\login::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/users/login.php.html#24"><abbr title="App\Http\Requests\users\login::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Resources/userResource.php.html#15"><abbr title="App\Http\Resources\userResource::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Activity_log.php.html#23"><abbr title="App\Models\Activity_log::subject">subject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Activity_log.php.html#28"><abbr title="App\Models\Activity_log::causer">causer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Activity_log.php.html#33"><abbr title="App\Models\Activity_log::getCreatedAtAttribute">getCreatedAtAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Category.php.html#20"><abbr title="App\Models\Category::getParentKeyName">getParentKeyName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Category.php.html#25"><abbr title="App\Models\Category::getLocalKeyName">getLocalKeyName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Category.php.html#30"><abbr title="App\Models\Category::getPath">getPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Image.php.html#20"><abbr title="App\Models\Image::imageable">imageable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Role.php.html#20"><abbr title="App\Models\Role::Activity_logs">Activity_logs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Role.php.html#25"><abbr title="App\Models\Role::getCreatedAtAttribute">getCreatedAtAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#41"><abbr title="App\Models\User::Image">Image</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#46"><abbr title="App\Models\User::Activity_logs">Activity_logs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#52"><abbr title="App\Models\User::getImage">getImage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#60"><abbr title="App\Models\User::getRole">getRole</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#68"><abbr title="App\Models\User::getRoleId">getRoleId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#76"><abbr title="App\Models\User::getCreatedAtAttribute">getCreatedAtAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#80"><abbr title="App\Models\User::has_permission">has_permission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#96"><abbr title="App\Models\User::getJWTIdentifier">getJWTIdentifier</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#106"><abbr title="App\Models\User::getJWTCustomClaims">getJWTCustomClaims</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notifications/testNotification.php.html#19"><abbr title="App\Notifications\testNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notifications/testNotification.php.html#30"><abbr title="App\Notifications\testNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notifications/testNotification.php.html#48"><abbr title="App\Notifications\testNotification::toDatabase">toDatabase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notifications/testNotification.php.html#63"><abbr title="App\Notifications\testNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BroadcastServiceProvider.php.html#15"><abbr title="App\Providers\BroadcastServiceProvider::boot">boot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/ActivityLogsService.php.html#10"><abbr title="App\Services\ActivityLogsService::insert">insert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/FirebaseNotificationSerice.php.html#9"><abbr title="App\Services\FirebaseNotificationSerice::Send">Send</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/RolesService.php.html#10"><abbr title="App\Services\RolesService::insert">insert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/RolesService.php.html#23"><abbr title="App\Services\RolesService::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/UsersService.php.html#13"><abbr title="App\Services\UsersService::insert">insert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/UsersService.php.html#25"><abbr title="App\Services\UsersService::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Services/UsersService.php.html#43"><abbr title="App\Services\UsersService::update_user_image">update_user_image</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/checkbox.php.html#21"><abbr title="App\View\Components\form\checkbox::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/checkbox.php.html#36"><abbr title="App\View\Components\form\checkbox::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/file.php.html#18"><abbr title="App\View\Components\form\file::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/file.php.html#31"><abbr title="App\View\Components\form\file::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/input.php.html#21"><abbr title="App\View\Components\form\input::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/input.php.html#36"><abbr title="App\View\Components\form\input::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/map.php.html#23"><abbr title="App\View\Components\form\map::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/map.php.html#39"><abbr title="App\View\Components\form\map::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/multipleSelect.php.html#23"><abbr title="App\View\Components\form\multipleSelect::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/multipleSelect.php.html#42"><abbr title="App\View\Components\form\multipleSelect::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/select.php.html#26"><abbr title="App\View\Components\form\select::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/select.php.html#46"><abbr title="App\View\Components\form\select::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/textarea.php.html#21"><abbr title="App\View\Components\form\textarea::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/Components/form/textarea.php.html#36"><abbr title="App\View\Components\form\textarea::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Traits/Upload.php.html#12"><abbr title="App\Traits\Upload::uploadImage">uploadImage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Traits/Upload.php.html#46"><abbr title="App\Traits\Upload::uploadFile">uploadFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Traits/helper.php.html#11"><abbr title="App\Traits\helper::date_format">date_format</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Traits/requestApiTrait.php.html#16"><abbr title="App\Traits\requestApiTrait::failedValidation">failedValidation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Traits/response.php.html#7"><abbr title="App\Traits\response::success">success</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Traits/response.php.html#22"><abbr title="App\Traits\response::failed">failed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Traits/response.php.html#30"><abbr title="App\Traits\response::getError">getError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/RouteServiceProvider.php.html#61"><abbr title="App\Providers\RouteServiceProvider::configureRateLimiting">configureRateLimiting</abbr></a></td><td class="text-right">66%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Traits/response.php.html#30"><abbr title="App\Traits\response::getError">getError</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/UserController.php.html#33"><abbr title="App\Http\Controllers\Dashboard\UserController::index">index</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Http/Middleware/checkJWTTokenMiddelware.php.html#25"><abbr title="App\Http\Middleware\checkJWTTokenMiddelware::handle">handle</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Traits/Upload.php.html#12"><abbr title="App\Traits\Upload::uploadImage">uploadImage</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#16"><abbr title="App\Http\Middleware\Authenticate::redirectTo">redirectTo</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#20"><abbr title="App\Http\Middleware\RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Controllers/Api/user/authentication/profileController.php.html#61"><abbr title="App\Http\Controllers\Api\user\authentication\profileController::changeImage">changeImage</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Models/User.php.html#80"><abbr title="App\Models\User::has_permission">has_permission</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Services/UsersService.php.html#25"><abbr title="App\Services\UsersService::update">update</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Services/UsersService.php.html#43"><abbr title="App\Services\UsersService::update_user_image">update_user_image</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/Api/user/authentication/LoginController.php.html#16"><abbr title="App\Http\Controllers\Api\user\authentication\LoginController::login">login</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/Api/user/authentication/profileController.php.html#47"><abbr title="App\Http\Controllers\Api\user\authentication\profileController::changePassword">changePassword</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/Controller.php.html#21"><abbr title="App\Http\Controllers\Controller::summernote_upload_image">summernote_upload_image</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/AuthenticationController.php.html#16"><abbr title="App\Http\Controllers\Dashboard\AuthenticationController::login">login</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/CategoryController.php.html#28"><abbr title="App\Http\Controllers\Dashboard\CategoryController::store">store</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/CategoryController.php.html#52"><abbr title="App\Http\Controllers\Dashboard\CategoryController::update">update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/ProfileController.php.html#47"><abbr title="App\Http\Controllers\Dashboard\ProfileController::update_image">update_image</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/UserController.php.html#103"><abbr title="App\Http\Controllers\Dashboard\UserController::edit">edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/Dashboard/UserController.php.html#133"><abbr title="App\Http\Controllers\Dashboard\UserController::destroy">destroy</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Middleware/api/changeLangMiddleware.php.html#18"><abbr title="App\Http\Middleware\api\changeLangMiddleware::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Middleware/dashboard/permissionMiddleware.php.html#17"><abbr title="App\Http\Middleware\dashboard\permissionMiddleware::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Models/Category.php.html#30"><abbr title="App\Models\Category::getPath">getPath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Models/User.php.html#52"><abbr title="App\Models\User::getImage">getImage</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Models/User.php.html#60"><abbr title="App\Models\User::getRole">getRole</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Models/User.php.html#68"><abbr title="App\Models\User::getRoleId">getRoleId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Traits/response.php.html#7"><abbr title="App\Traits\response::success">success</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/RouteServiceProvider.php.html#61"><abbr title="App\Providers\RouteServiceProvider::configureRateLimiting">configureRateLimiting</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.26</a> using <a href="https://secure.php.net/" target="_top">PHP 8.1.10</a> and <a href="https://phpunit.de/">PHPUnit 9.6.5</a> at Wed Jan 10 21:24:36 EET 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="_js/jquery.min.js?v=9.2.26" type="text/javascript"></script>
+  <script src="_js/d3.min.js?v=9.2.26" type="text/javascript"></script>
+  <script src="_js/nv.d3.min.js?v=9.2.26" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([51,0,0,0,0,0,0,1,0,0,1,15], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([121,0,0,0,0,0,0,1,0,0,0,7], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[66.66666666666666,2,"<a href=\"Console\/Kernel.php.html#8\">App\\Console\\Kernel<\/a>"],[100,1,"<a href=\"Exceptions\/Handler.php.html#8\">App\\Exceptions\\Handler<\/a>"],[0,3,"<a href=\"Http\/Controllers\/Api\/user\/authentication\/LoginController.php.html#14\">App\\Http\\Controllers\\Api\\user\\authentication\\LoginController<\/a>"],[0,7,"<a href=\"Http\/Controllers\/Api\/user\/authentication\/profileController.php.html#17\">App\\Http\\Controllers\\Api\\user\\authentication\\profileController<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Api\/user\/authentication\/registrationController.php.html#13\">App\\Http\\Controllers\\Api\\user\\authentication\\registrationController<\/a>"],[0,3,"<a href=\"Http\/Controllers\/Controller.php.html#15\">App\\Http\\Controllers\\Controller<\/a>"],[0,4,"<a href=\"Http\/Controllers\/Dashboard\/AuthenticationController.php.html#10\">App\\Http\\Controllers\\Dashboard\\AuthenticationController<\/a>"],[0,8,"<a href=\"Http\/Controllers\/Dashboard\/CategoryController.php.html#11\">App\\Http\\Controllers\\Dashboard\\CategoryController<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/HomeController.php.html#12\">App\\Http\\Controllers\\Dashboard\\HomeController<\/a>"],[0,5,"<a href=\"Http\/Controllers\/Dashboard\/ProfileController.php.html#12\">App\\Http\\Controllers\\Dashboard\\ProfileController<\/a>"],[0,7,"<a href=\"Http\/Controllers\/Dashboard\/RoleController.php.html#12\">App\\Http\\Controllers\\Dashboard\\RoleController<\/a>"],[0,2,"<a href=\"Http\/Controllers\/Dashboard\/SettingController.php.html#9\">App\\Http\\Controllers\\Dashboard\\SettingController<\/a>"],[0,15,"<a href=\"Http\/Controllers\/Dashboard\/UserController.php.html#18\">App\\Http\\Controllers\\Dashboard\\UserController<\/a>"],[100,0,"<a href=\"Http\/Kernel.php.html#7\">App\\Http\\Kernel<\/a>"],[0,4,"<a href=\"Http\/Middleware\/Authenticate.php.html#8\">App\\Http\\Middleware\\Authenticate<\/a>"],[100,0,"<a href=\"Http\/Middleware\/EncryptCookies.php.html#7\">App\\Http\\Middleware\\EncryptCookies<\/a>"],[100,0,"<a href=\"Http\/Middleware\/PreventRequestsDuringMaintenance.php.html#7\">App\\Http\\Middleware\\PreventRequestsDuringMaintenance<\/a>"],[0,4,"<a href=\"Http\/Middleware\/RedirectIfAuthenticated.php.html#10\">App\\Http\\Middleware\\RedirectIfAuthenticated<\/a>"],[100,0,"<a href=\"Http\/Middleware\/TrimStrings.php.html#7\">App\\Http\\Middleware\\TrimStrings<\/a>"],[0,1,"<a href=\"Http\/Middleware\/TrustHosts.php.html#7\">App\\Http\\Middleware\\TrustHosts<\/a>"],[100,0,"<a href=\"Http\/Middleware\/TrustProxies.php.html#8\">App\\Http\\Middleware\\TrustProxies<\/a>"],[100,0,"<a href=\"Http\/Middleware\/VerifyCsrfToken.php.html#7\">App\\Http\\Middleware\\VerifyCsrfToken<\/a>"],[0,2,"<a href=\"Http\/Middleware\/api\/changeLangMiddleware.php.html#9\">App\\Http\\Middleware\\api\\changeLangMiddleware<\/a>"],[0,5,"<a href=\"Http\/Middleware\/checkJWTTokenMiddelware.php.html#15\">App\\Http\\Middleware\\checkJWTTokenMiddelware<\/a>"],[0,2,"<a href=\"Http\/Middleware\/dashboard\/permissionMiddleware.php.html#8\">App\\Http\\Middleware\\dashboard\\permissionMiddleware<\/a>"],[0,2,"<a href=\"Http\/Requests\/Api\/user\/changeImageRequest.php.html#11\">App\\Http\\Requests\\Api\\user\\changeImageRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/Api\/user\/changePasswordRequest.php.html#11\">App\\Http\\Requests\\Api\\user\\changePasswordRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/Api\/user\/createRequest.php.html#11\">App\\Http\\Requests\\Api\\user\\createRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/Api\/user\/loginRequest.php.html#11\">App\\Http\\Requests\\Api\\user\\loginRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/Api\/user\/updateRequest.php.html#11\">App\\Http\\Requests\\Api\\user\\updateRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/profile\/edit.php.html#7\">App\\Http\\Requests\\profile\\edit<\/a>"],[0,2,"<a href=\"Http\/Requests\/roles\/createRequest.php.html#7\">App\\Http\\Requests\\roles\\createRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/roles\/editRequest.php.html#7\">App\\Http\\Requests\\roles\\editRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/users\/createRequest.php.html#7\">App\\Http\\Requests\\users\\createRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/users\/editRequest.php.html#7\">App\\Http\\Requests\\users\\editRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/users\/login.php.html#7\">App\\Http\\Requests\\users\\login<\/a>"],[0,1,"<a href=\"Http\/Resources\/userResource.php.html#7\">App\\Http\\Resources\\userResource<\/a>"],[0,3,"<a href=\"Models\/Activity_log.php.html#9\">App\\Models\\Activity_log<\/a>"],[0,4,"<a href=\"Models\/Category.php.html#12\">App\\Models\\Category<\/a>"],[100,0,"<a href=\"Models\/CategoryTranslation.php.html#8\">App\\Models\\CategoryTranslation<\/a>"],[0,1,"<a href=\"Models\/Image.php.html#8\">App\\Models\\Image<\/a>"],[100,0,"<a href=\"Models\/Permission.php.html#7\">App\\Models\\Permission<\/a>"],[0,2,"<a href=\"Models\/Role.php.html#9\">App\\Models\\Role<\/a>"],[100,0,"<a href=\"Models\/Setting.php.html#8\">App\\Models\\Setting<\/a>"],[0,14,"<a href=\"Models\/User.php.html#16\">App\\Models\\User<\/a>"],[0,4,"<a href=\"Notifications\/testNotification.php.html#10\">App\\Notifications\\testNotification<\/a>"],[100,2,"<a href=\"Providers\/AppServiceProvider.php.html#7\">App\\Providers\\AppServiceProvider<\/a>"],[100,1,"<a href=\"Providers\/AuthServiceProvider.php.html#8\">App\\Providers\\AuthServiceProvider<\/a>"],[0,1,"<a href=\"Providers\/BroadcastServiceProvider.php.html#8\">App\\Providers\\BroadcastServiceProvider<\/a>"],[100,1,"<a href=\"Providers\/EventServiceProvider.php.html#10\">App\\Providers\\EventServiceProvider<\/a>"],[93.75,3,"<a href=\"Providers\/RouteServiceProvider.php.html#11\">App\\Providers\\RouteServiceProvider<\/a>"],[100,0,"<a href=\"Repositories\/rolesRepository.php.html#8\">App\\Repositories\\dashboard\\rolesRepository<\/a>"],[100,0,"<a href=\"Repositories\/usersRepository.php.html#8\">App\\Repositories\\dashboard\\usersRepository<\/a>"],[0,1,"<a href=\"Services\/ActivityLogsService.php.html#8\">App\\Services\\ActivityLogsService<\/a>"],[0,1,"<a href=\"Services\/FirebaseNotificationSerice.php.html#7\">App\\Services\\FirebaseNotificationSerice<\/a>"],[0,2,"<a href=\"Services\/RolesService.php.html#8\">App\\Services\\RolesService<\/a>"],[0,7,"<a href=\"Services\/UsersService.php.html#10\">App\\Services\\UsersService<\/a>"],[0,2,"<a href=\"View\/Components\/form\/checkbox.php.html#7\">App\\View\\Components\\form\\checkbox<\/a>"],[0,2,"<a href=\"View\/Components\/form\/file.php.html#7\">App\\View\\Components\\form\\file<\/a>"],[0,2,"<a href=\"View\/Components\/form\/input.php.html#7\">App\\View\\Components\\form\\input<\/a>"],[0,2,"<a href=\"View\/Components\/form\/map.php.html#7\">App\\View\\Components\\form\\map<\/a>"],[0,2,"<a href=\"View\/Components\/form\/multipleSelect.php.html#7\">App\\View\\Components\\form\\multipleSelect<\/a>"],[0,2,"<a href=\"View\/Components\/form\/select.php.html#7\">App\\View\\Components\\form\\select<\/a>"],[0,2,"<a href=\"View\/Components\/form\/textarea.php.html#7\">App\\View\\Components\\form\\textarea<\/a>"],[0,6,"<a href=\"Traits\/Upload.php.html#9\">App\\Traits\\Upload<\/a>"],[0,1,"<a href=\"Traits\/helper.php.html#9\">App\\Traits\\helper<\/a>"],[0,1,"<a href=\"Traits\/requestApiTrait.php.html#11\">App\\Traits\\requestApiTrait<\/a>"],[0,10,"<a href=\"Traits\/response.php.html#5\">App\\Traits\\response<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Console\/Kernel.php.html#16\">App\\Console\\Kernel::schedule<\/a>"],[100,1,"<a href=\"Console\/Kernel.php.html#26\">App\\Console\\Kernel::commands<\/a>"],[100,1,"<a href=\"Exceptions\/Handler.php.html#35\">App\\Exceptions\\Handler::register<\/a>"],[0,2,"<a href=\"Http\/Controllers\/Api\/user\/authentication\/LoginController.php.html#16\">App\\Http\\Controllers\\Api\\user\\authentication\\LoginController::login<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Api\/user\/authentication\/LoginController.php.html#34\">App\\Http\\Controllers\\Api\\user\\authentication\\LoginController::logout<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Api\/user\/authentication\/profileController.php.html#20\">App\\Http\\Controllers\\Api\\user\\authentication\\profileController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Api\/user\/authentication\/profileController.php.html#31\">App\\Http\\Controllers\\Api\\user\\authentication\\profileController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/Api\/user\/authentication\/profileController.php.html#47\">App\\Http\\Controllers\\Api\\user\\authentication\\profileController::changePassword<\/a>"],[0,3,"<a href=\"Http\/Controllers\/Api\/user\/authentication\/profileController.php.html#61\">App\\Http\\Controllers\\Api\\user\\authentication\\profileController::changeImage<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Api\/user\/authentication\/registrationController.php.html#15\">App\\Http\\Controllers\\Api\\user\\authentication\\registrationController::register<\/a>"],[0,2,"<a href=\"Http\/Controllers\/Controller.php.html#21\">App\\Http\\Controllers\\Controller::summernote_upload_image<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Controller.php.html#30\">App\\Http\\Controllers\\Controller::testPopUp<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/AuthenticationController.php.html#12\">App\\Http\\Controllers\\Dashboard\\AuthenticationController::loginView<\/a>"],[0,2,"<a href=\"Http\/Controllers\/Dashboard\/AuthenticationController.php.html#16\">App\\Http\\Controllers\\Dashboard\\AuthenticationController::login<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/AuthenticationController.php.html#25\">App\\Http\\Controllers\\Dashboard\\AuthenticationController::logout<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/CategoryController.php.html#13\">App\\Http\\Controllers\\Dashboard\\CategoryController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/CategoryController.php.html#20\">App\\Http\\Controllers\\Dashboard\\CategoryController::create<\/a>"],[0,2,"<a href=\"Http\/Controllers\/Dashboard\/CategoryController.php.html#28\">App\\Http\\Controllers\\Dashboard\\CategoryController::store<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/CategoryController.php.html#42\">App\\Http\\Controllers\\Dashboard\\CategoryController::edit<\/a>"],[0,2,"<a href=\"Http\/Controllers\/Dashboard\/CategoryController.php.html#52\">App\\Http\\Controllers\\Dashboard\\CategoryController::update<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/CategoryController.php.html#66\">App\\Http\\Controllers\\Dashboard\\CategoryController::destroy<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/HomeController.php.html#14\">App\\Http\\Controllers\\Dashboard\\HomeController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/ProfileController.php.html#17\">App\\Http\\Controllers\\Dashboard\\ProfileController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/ProfileController.php.html#24\">App\\Http\\Controllers\\Dashboard\\ProfileController::edit<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/ProfileController.php.html#30\">App\\Http\\Controllers\\Dashboard\\ProfileController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/Dashboard\/ProfileController.php.html#47\">App\\Http\\Controllers\\Dashboard\\ProfileController::update_image<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/RoleController.php.html#17\">App\\Http\\Controllers\\Dashboard\\RoleController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/RoleController.php.html#30\">App\\Http\\Controllers\\Dashboard\\RoleController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/RoleController.php.html#35\">App\\Http\\Controllers\\Dashboard\\RoleController::create<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/RoleController.php.html#39\">App\\Http\\Controllers\\Dashboard\\RoleController::store<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/RoleController.php.html#54\">App\\Http\\Controllers\\Dashboard\\RoleController::edit<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/RoleController.php.html#60\">App\\Http\\Controllers\\Dashboard\\RoleController::update<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/RoleController.php.html#77\">App\\Http\\Controllers\\Dashboard\\RoleController::destroy<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/SettingController.php.html#11\">App\\Http\\Controllers\\Dashboard\\SettingController::edit<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/SettingController.php.html#17\">App\\Http\\Controllers\\Dashboard\\SettingController::update<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/UserController.php.html#23\">App\\Http\\Controllers\\Dashboard\\UserController::__construct<\/a>"],[0,6,"<a href=\"Http\/Controllers\/Dashboard\/UserController.php.html#33\">App\\Http\\Controllers\\Dashboard\\UserController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/UserController.php.html#83\">App\\Http\\Controllers\\Dashboard\\UserController::create<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/UserController.php.html#88\">App\\Http\\Controllers\\Dashboard\\UserController::store<\/a>"],[0,2,"<a href=\"Http\/Controllers\/Dashboard\/UserController.php.html#103\">App\\Http\\Controllers\\Dashboard\\UserController::edit<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/UserController.php.html#116\">App\\Http\\Controllers\\Dashboard\\UserController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/Dashboard\/UserController.php.html#133\">App\\Http\\Controllers\\Dashboard\\UserController::destroy<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Dashboard\/UserController.php.html#153\">App\\Http\\Controllers\\Dashboard\\UserController::activity_logs<\/a>"],[0,4,"<a href=\"Http\/Middleware\/Authenticate.php.html#16\">App\\Http\\Middleware\\Authenticate::redirectTo<\/a>"],[0,4,"<a href=\"Http\/Middleware\/RedirectIfAuthenticated.php.html#20\">App\\Http\\Middleware\\RedirectIfAuthenticated::handle<\/a>"],[0,1,"<a href=\"Http\/Middleware\/TrustHosts.php.html#14\">App\\Http\\Middleware\\TrustHosts::hosts<\/a>"],[0,2,"<a href=\"Http\/Middleware\/api\/changeLangMiddleware.php.html#18\">App\\Http\\Middleware\\api\\changeLangMiddleware::handle<\/a>"],[0,5,"<a href=\"Http\/Middleware\/checkJWTTokenMiddelware.php.html#25\">App\\Http\\Middleware\\checkJWTTokenMiddelware::handle<\/a>"],[0,2,"<a href=\"Http\/Middleware\/dashboard\/permissionMiddleware.php.html#17\">App\\Http\\Middleware\\dashboard\\permissionMiddleware::handle<\/a>"],[0,1,"<a href=\"Http\/Requests\/Api\/user\/changeImageRequest.php.html#19\">App\\Http\\Requests\\Api\\user\\changeImageRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/Api\/user\/changeImageRequest.php.html#29\">App\\Http\\Requests\\Api\\user\\changeImageRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/Api\/user\/changePasswordRequest.php.html#20\">App\\Http\\Requests\\Api\\user\\changePasswordRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/Api\/user\/changePasswordRequest.php.html#30\">App\\Http\\Requests\\Api\\user\\changePasswordRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/Api\/user\/createRequest.php.html#19\">App\\Http\\Requests\\Api\\user\\createRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/Api\/user\/createRequest.php.html#29\">App\\Http\\Requests\\Api\\user\\createRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/Api\/user\/loginRequest.php.html#19\">App\\Http\\Requests\\Api\\user\\loginRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/Api\/user\/loginRequest.php.html#29\">App\\Http\\Requests\\Api\\user\\loginRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/Api\/user\/updateRequest.php.html#19\">App\\Http\\Requests\\Api\\user\\updateRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/Api\/user\/updateRequest.php.html#29\">App\\Http\\Requests\\Api\\user\\updateRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/profile\/edit.php.html#14\">App\\Http\\Requests\\profile\\edit::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/profile\/edit.php.html#24\">App\\Http\\Requests\\profile\\edit::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/roles\/createRequest.php.html#14\">App\\Http\\Requests\\roles\\createRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/roles\/createRequest.php.html#24\">App\\Http\\Requests\\roles\\createRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/roles\/editRequest.php.html#14\">App\\Http\\Requests\\roles\\editRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/roles\/editRequest.php.html#24\">App\\Http\\Requests\\roles\\editRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/users\/createRequest.php.html#14\">App\\Http\\Requests\\users\\createRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/users\/createRequest.php.html#24\">App\\Http\\Requests\\users\\createRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/users\/editRequest.php.html#14\">App\\Http\\Requests\\users\\editRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/users\/editRequest.php.html#24\">App\\Http\\Requests\\users\\editRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/users\/login.php.html#14\">App\\Http\\Requests\\users\\login::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/users\/login.php.html#24\">App\\Http\\Requests\\users\\login::rules<\/a>"],[0,1,"<a href=\"Http\/Resources\/userResource.php.html#15\">App\\Http\\Resources\\userResource::toArray<\/a>"],[0,1,"<a href=\"Models\/Activity_log.php.html#23\">App\\Models\\Activity_log::subject<\/a>"],[0,1,"<a href=\"Models\/Activity_log.php.html#28\">App\\Models\\Activity_log::causer<\/a>"],[0,1,"<a href=\"Models\/Activity_log.php.html#33\">App\\Models\\Activity_log::getCreatedAtAttribute<\/a>"],[0,1,"<a href=\"Models\/Category.php.html#20\">App\\Models\\Category::getParentKeyName<\/a>"],[0,1,"<a href=\"Models\/Category.php.html#25\">App\\Models\\Category::getLocalKeyName<\/a>"],[0,2,"<a href=\"Models\/Category.php.html#30\">App\\Models\\Category::getPath<\/a>"],[0,1,"<a href=\"Models\/Image.php.html#20\">App\\Models\\Image::imageable<\/a>"],[0,1,"<a href=\"Models\/Role.php.html#20\">App\\Models\\Role::Activity_logs<\/a>"],[0,1,"<a href=\"Models\/Role.php.html#25\">App\\Models\\Role::getCreatedAtAttribute<\/a>"],[0,1,"<a href=\"Models\/User.php.html#41\">App\\Models\\User::Image<\/a>"],[0,1,"<a href=\"Models\/User.php.html#46\">App\\Models\\User::Activity_logs<\/a>"],[0,2,"<a href=\"Models\/User.php.html#52\">App\\Models\\User::getImage<\/a>"],[0,2,"<a href=\"Models\/User.php.html#60\">App\\Models\\User::getRole<\/a>"],[0,2,"<a href=\"Models\/User.php.html#68\">App\\Models\\User::getRoleId<\/a>"],[0,1,"<a href=\"Models\/User.php.html#76\">App\\Models\\User::getCreatedAtAttribute<\/a>"],[0,3,"<a href=\"Models\/User.php.html#80\">App\\Models\\User::has_permission<\/a>"],[0,1,"<a href=\"Models\/User.php.html#96\">App\\Models\\User::getJWTIdentifier<\/a>"],[0,1,"<a href=\"Models\/User.php.html#106\">App\\Models\\User::getJWTCustomClaims<\/a>"],[0,1,"<a href=\"Notifications\/testNotification.php.html#19\">App\\Notifications\\testNotification::__construct<\/a>"],[0,1,"<a href=\"Notifications\/testNotification.php.html#30\">App\\Notifications\\testNotification::via<\/a>"],[0,1,"<a href=\"Notifications\/testNotification.php.html#48\">App\\Notifications\\testNotification::toDatabase<\/a>"],[0,1,"<a href=\"Notifications\/testNotification.php.html#63\">App\\Notifications\\testNotification::toArray<\/a>"],[100,1,"<a href=\"Providers\/AppServiceProvider.php.html#14\">App\\Providers\\AppServiceProvider::register<\/a>"],[100,1,"<a href=\"Providers\/AppServiceProvider.php.html#24\">App\\Providers\\AppServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/AuthServiceProvider.php.html#24\">App\\Providers\\AuthServiceProvider::boot<\/a>"],[0,1,"<a href=\"Providers\/BroadcastServiceProvider.php.html#15\">App\\Providers\\BroadcastServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/EventServiceProvider.php.html#28\">App\\Providers\\EventServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/RouteServiceProvider.php.html#36\">App\\Providers\\RouteServiceProvider::boot<\/a>"],[66.66666666666666,2,"<a href=\"Providers\/RouteServiceProvider.php.html#61\">App\\Providers\\RouteServiceProvider::configureRateLimiting<\/a>"],[0,1,"<a href=\"Services\/ActivityLogsService.php.html#10\">App\\Services\\ActivityLogsService::insert<\/a>"],[0,1,"<a href=\"Services\/FirebaseNotificationSerice.php.html#9\">App\\Services\\FirebaseNotificationSerice::Send<\/a>"],[0,1,"<a href=\"Services\/RolesService.php.html#10\">App\\Services\\RolesService::insert<\/a>"],[0,1,"<a href=\"Services\/RolesService.php.html#23\">App\\Services\\RolesService::update<\/a>"],[0,1,"<a href=\"Services\/UsersService.php.html#13\">App\\Services\\UsersService::insert<\/a>"],[0,3,"<a href=\"Services\/UsersService.php.html#25\">App\\Services\\UsersService::update<\/a>"],[0,3,"<a href=\"Services\/UsersService.php.html#43\">App\\Services\\UsersService::update_user_image<\/a>"],[0,1,"<a href=\"View\/Components\/form\/checkbox.php.html#21\">App\\View\\Components\\form\\checkbox::__construct<\/a>"],[0,1,"<a href=\"View\/Components\/form\/checkbox.php.html#36\">App\\View\\Components\\form\\checkbox::render<\/a>"],[0,1,"<a href=\"View\/Components\/form\/file.php.html#18\">App\\View\\Components\\form\\file::__construct<\/a>"],[0,1,"<a href=\"View\/Components\/form\/file.php.html#31\">App\\View\\Components\\form\\file::render<\/a>"],[0,1,"<a href=\"View\/Components\/form\/input.php.html#21\">App\\View\\Components\\form\\input::__construct<\/a>"],[0,1,"<a href=\"View\/Components\/form\/input.php.html#36\">App\\View\\Components\\form\\input::render<\/a>"],[0,1,"<a href=\"View\/Components\/form\/map.php.html#23\">App\\View\\Components\\form\\map::__construct<\/a>"],[0,1,"<a href=\"View\/Components\/form\/map.php.html#39\">App\\View\\Components\\form\\map::render<\/a>"],[0,1,"<a href=\"View\/Components\/form\/multipleSelect.php.html#23\">App\\View\\Components\\form\\multipleSelect::__construct<\/a>"],[0,1,"<a href=\"View\/Components\/form\/multipleSelect.php.html#42\">App\\View\\Components\\form\\multipleSelect::render<\/a>"],[0,1,"<a href=\"View\/Components\/form\/select.php.html#26\">App\\View\\Components\\form\\select::__construct<\/a>"],[0,1,"<a href=\"View\/Components\/form\/select.php.html#46\">App\\View\\Components\\form\\select::render<\/a>"],[0,1,"<a href=\"View\/Components\/form\/textarea.php.html#21\">App\\View\\Components\\form\\textarea::__construct<\/a>"],[0,1,"<a href=\"View\/Components\/form\/textarea.php.html#36\">App\\View\\Components\\form\\textarea::render<\/a>"],[0,5,"<a href=\"Traits\/Upload.php.html#12\">App\\Traits\\Upload::uploadImage<\/a>"],[0,1,"<a href=\"Traits\/Upload.php.html#46\">App\\Traits\\Upload::uploadFile<\/a>"],[0,1,"<a href=\"Traits\/helper.php.html#11\">App\\Traits\\helper::date_format<\/a>"],[0,1,"<a href=\"Traits\/requestApiTrait.php.html#16\">App\\Traits\\requestApiTrait::failedValidation<\/a>"],[0,2,"<a href=\"Traits\/response.php.html#7\">App\\Traits\\response::success<\/a>"],[0,1,"<a href=\"Traits\/response.php.html#22\">App\\Traits\\response::failed<\/a>"],[0,7,"<a href=\"Traits\/response.php.html#30\">App\\Traits\\response::getError<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
